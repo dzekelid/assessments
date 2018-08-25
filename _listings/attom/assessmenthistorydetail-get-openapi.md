@@ -4,9 +4,9 @@ x-collection-name: ATTOM
 x-complete: 0
 info:
   title: Attom Data Solutions API Returns assessment history and property details.
-  version: 1.0.0
   description: Get a full detail of property characteristics and assessment history
     information for a specific property.
+  version: 1.0.0
 host: search.onboard-apis.com
 basePath: /communityapi/v2.0.0
 schemes:

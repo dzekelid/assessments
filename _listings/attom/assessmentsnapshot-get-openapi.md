@@ -5,9 +5,9 @@ x-complete: 0
 info:
   title: Attom Data Solutions API Returns assessment details for properties within
     a radius.
-  version: 1.0.0
   description: Get snapshots of the properties within a radius of a property that
     have a total market value within a specified range.
+  version: 1.0.0
 host: search.onboard-apis.com
 basePath: /communityapi/v2.0.0
 schemes:

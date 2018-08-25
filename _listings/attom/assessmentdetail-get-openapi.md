@@ -5,9 +5,9 @@ x-complete: 0
 info:
   title: Attom Data Solutions API Returns assessment details for properties within
     a zip code.
-  version: 1.0.0
   description: Get assessment details for properties within a zip code. Use propertytpe
     to select a specific property type for your search.
+  version: 1.0.0
 host: search.onboard-apis.com
 basePath: /communityapi/v2.0.0
 schemes:

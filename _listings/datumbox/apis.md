@@ -12,9 +12,11 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Datumbox
-  x-api-slug: datumbox
-  description: datumbox-offers-a-machine-learning-platform-composed-of-14-classifiers-and-natural-language-processing-functions--functions-include-sentiment-analysis-topic-classification-readability-assessment-language-detection-and-much-more-
+- name: DatumBox - Evaluates the Readability of the Document
+  x-api-slug: readabilityassessment-json-post
+  description: The Readability Assessment function determines the degree of readability
+    of a document based on its terms and idioms. The texts are classified as basic,
+    intermediate and advanced depending their difficulty.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
   humanURL: http://datumbox.com
   baseURL: https://api.datumbox.com/1.0/
@@ -25,9 +27,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/readabilityassessment-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/readabilityassessment-json-post-openapi.md
-- name: Datumbox
-  x-api-slug: datumbox
-  description: datumbox-offers-a-machine-learning-platform-composed-of-14-classifiers-and-natural-language-processing-functions--functions-include-sentiment-analysis-topic-classification-readability-assessment-language-detection-and-much-more-
+- name: DatumBox - Evaluates the Readability of the Document
+  x-api-slug: readabilityassessment-json-post
+  description: The Readability Assessment function determines the degree of readability
+    of a document based on its terms and idioms. The texts are classified as basic,
+    intermediate and advanced depending their difficulty.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
   humanURL: http://datumbox.com
   baseURL: https://api.datumbox.com/1.0/
@@ -38,19 +42,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/readabilityassessment-json-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/readabilityassessment-json-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/readabilityassessment-json-post-openapi.md
-- name: Datumbox
-  x-api-slug: datumbox
-  description: Build quickly and easily Intelligent Applications by using the power
-    of Machine Learning!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
-  humanURL: http://datumbox.com
-  baseURL: https://api.datumbox.com/1.0/
-  tags: Assessments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/datumbox.json
