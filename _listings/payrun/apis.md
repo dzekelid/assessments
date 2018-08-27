@@ -7,11 +7,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payr
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Assessments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Pay Run.IO - Get the auto enrolment assessments
+  x-api-slug: employeremployeridemployeeemployeeidaeassessments-get
+  description: Gets all auto enrolment assessments from the specified employee
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessments-get-openapi.md
+- name: Pay Run.IO - Get the auto enrolment assessments
+  x-api-slug: employeremployeridpayschedulepayscheduleidpayrunpayrunidaeassessments-get
+  description: Gets all auto enrolment assessments from the specified pay run
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridpayschedulepayscheduleidpayrunpayrunidaeassessments-get-openapi.md
 - name: Pay Run.IO - Delete auto enrolment assessment
   x-api-slug: employeremployeridemployeeemployeeidaeassessmentaeassessmentid-delete
   description: Deletes an existing auto enrolment assessment for the employee. Used
@@ -39,6 +61,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-get-openapi.md
+- name: Pay Run.IO - Insert new auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessmentaeassessmentid-put
+  description: Creates a new auto enrolment assessment for the employee. Used to insert
+    historical assessments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-put-openapi.md
+- name: Pay Run.IO - Insert new auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessments-post
+  description: Creates a new auto enrolment assessment for the employee. Used to insert
+    historical assessments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessments-post-openapi.md
 - name: Pay Run.IO - Delete auto enrolment assessment
   x-api-slug: employeremployeridemployeeemployeeidaeassessmentaeassessmentid-delete
   description: Deletes an existing auto enrolment assessment for the employee. Used
@@ -66,6 +112,81 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-get-openapi.md
+- name: Pay Run.IO - Insert new auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessmentaeassessmentid-put
+  description: Creates a new auto enrolment assessment for the employee. Used to insert
+    historical assessments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-put-openapi.md
+- name: Pay Run.IO - Insert new auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessments-post
+  description: Creates a new auto enrolment assessment for the employee. Used to insert
+    historical assessments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessments-post-openapi.md
+- name: Pay Run.IO - Insert new auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessments-post
+  description: Creates a new auto enrolment assessment for the employee. Used to insert
+    historical assessments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessments-post-openapi.md
+- name: Pay Run.IO - Insert new auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessmentaeassessmentid-put
+  description: Creates a new auto enrolment assessment for the employee. Used to insert
+    historical assessments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-put-openapi.md
+- name: Pay Run.IO - Get the auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessmentaeassessmentid-get
+  description: Gets the auto enrolment assessment from the specified employee
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-get-openapi.md
+- name: Pay Run.IO - Delete auto enrolment assessment
+  x-api-slug: employeremployeridemployeeemployeeidaeassessmentaeassessmentid-delete
+  description: Deletes an existing auto enrolment assessment for the employee. Used
+    to remove historical assessments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/payrun/employeremployeridemployeeemployeeidaeassessmentaeassessmentid-delete-openapi.md
 x-common:
 - type: x-website
   url: http://www.payrun.io

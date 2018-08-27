@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datu
 x-kinRank: "9"
 x-alexaRank: "514549"
 tags: Assessments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/apis.md
 specificationVersion: "0.14"
 apis:
+- name: DatumBox - Evaluates the Readability of the Document
+  x-api-slug: readabilityassessment-json-post
+  description: The Readability Assessment function determines the degree of readability
+    of a document based on its terms and idioms. The texts are classified as basic,
+    intermediate and advanced depending their difficulty.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg
+  humanURL: http://datumbox.com
+  baseURL: https://api.datumbox.com/1.0/
+  tags: Machine Learning, Content, Stack Network, API Provider, API Service Provider,
+    SaaS, Technology, Enterprise, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/readabilityassessment-json-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assessments/master/_listings/datumbox/readabilityassessment-json-post-openapi.md
 - name: DatumBox - Evaluates the Readability of the Document
   x-api-slug: readabilityassessment-json-post
   description: The Readability Assessment function determines the degree of readability
